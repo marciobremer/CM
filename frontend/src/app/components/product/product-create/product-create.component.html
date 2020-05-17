@@ -2,10 +2,11 @@
     <mat-card-title>New Product</mat-card-title>
     <form>
         <mat-form-field>
-            <input matInput placeholder="Name">
+            <!-- by using the [(ngModel)] we are using 2way data binding grab the data from form and send to database -->
+            <input matInput placeholder="Name" [(ngModel)]="product.name" name="name">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Price">
+            <input matInput placeholder="Price" [(ngModel)]="product.price" name="price">
         </mat-form-field>
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">
