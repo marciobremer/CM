@@ -24,6 +24,11 @@
       "name": "teste",
       "price": "20",
       "id": 5
+    },
+    {
+      "name": "Saia Preta",
+      "price": "69.90",
+      "id": 6
     }
   ]
 }
